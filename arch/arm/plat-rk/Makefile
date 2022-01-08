@@ -1,7 +1,7 @@
 EXTRA_CFLAGS += -Os
 obj-$(CONFIG_RK29_LAST_LOG) += last_log.o
 obj-$(CONFIG_USB_GADGET) += usb_detect.o
-obj-$(CONFIG_RK29_VPU) += vpu_service.o
+# obj-$(CONFIG_RK29_VPU) += vpu_service.o
 obj-$(CONFIG_RK_PL330_DMA) += dma-pl330.o
 obj-$(CONFIG_RK_PL330_DMA_TEST) += dma_memcpy_test.o
 obj-$(CONFIG_FIQ) += fiq.o
